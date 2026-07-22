@@ -15,12 +15,12 @@ PROJECT_DIR = Path(__file__).resolve().parent
 # Load Gemini API key from my_agent/.env
 load_dotenv(PROJECT_DIR / ".env")
 
-PARENT_DIR = PROJECT_DIR.parent
+PROJECT_DIR = Path(__file__).resolve().parent
 
-if str(PARENT_DIR) not in sys.path:
-    sys.path.insert(0, str(PARENT_DIR))
+if str(PROJECT_DIR) not in sys.path:
+    sys.path.insert(0, str(PROJECT_DIR))
 
-from my_agent.agent import root_agent
+from agent import root_agent
 
 
 # ---------------------------------------------------------

@@ -1,9 +1,9 @@
 from google.adk.agents import SequentialAgent
 
-from my_agent.agents.soap_agent import soap_agent
-from my_agent.agents.symptom_agent import symptom_agent
-from my_agent.agents.triage_agent import triage_agent
-from my_agent.agents.escalation_agent import escalation_agent
+from agents.soap_agent import soap_agent
+from agents.symptom_agent import symptom_agent
+from agents.triage_agent import triage_agent
+from agents.escalation_agent import escalation_agent
 
 
 root_agent = SequentialAgent(
