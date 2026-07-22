@@ -1,5 +1,6 @@
 .env
 .env.*
+!.env.example
 qdrant_data/
 __pycache__/
 *.py[cod]
