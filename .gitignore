@@ -1,0 +1,16 @@
+.env
+.env.*
+qdrant_data/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+check_qdrant.py
+test_qdrant.py
+.adk/

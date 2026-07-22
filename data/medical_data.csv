@@ -1,0 +1,6 @@
+symptom,disease,severity,recommendation
+fever,Flu,Low,Drink plenty of water
+cough,Cold,Low,Take rest
+headache,Migraine,Medium,Consult doctor
+chest pain,Heart Disease,Emergency,Visit hospital immediately
+breathing difficulty,Asthma,Emergency,Seek urgent care
